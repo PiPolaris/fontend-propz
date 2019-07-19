@@ -1,0 +1,64 @@
+{
+    "products":[
+        {
+            "thumbnail":"img/products/Game Call Of Duty Black Ops 4 - PS4.png",
+            "link":"https://www.americanas.com.br/produto/133833989?pfm_carac=black%20ops%20ps4&pfm_index=0&pfm_page=search&pfm_pos=grid&pfm_type=search_page%20&sellerId",
+            "name":"Game Call Of Duty Black Ops 4 - PS4",
+            "semJuros":"10",
+            "comJuros":"15",
+            "priceSemJuros":"69,99",
+            "priceComJuros":"80,90",
+            "inCash":"65,00"
+        },
+        {
+            "thumbnail":"img/products/Game Horizon Zero Dawn Complete Edition - PS4.jpg",
+            "link":"https://www.americanas.com.br/produto/134140738?DCSext.recom=RR_category.1&api=b2wads&chave=b2wads_5cf18eaf01ecd40f89d5a009_13611984000199_134140738_9ad1ac3e-cf94-423b-9b02-7a56d9799775&nm_origem=rec_category.1&nm_ranking_rec=1&pfm_carac=Publicidade&pfm_index=3&pfm_page=category&pfm_pos=b2wAds&pfm_type=vit_recommendation&pos=4&sellerId=13611984000199&sellerName=Mauro%20SPBR%20Games",
+            "name":"Game Horizon Zero Dawn Complete Edition - PS4",
+            "semJuros":"2",
+            "comJuros":"7",
+            "priceSemJuros":"75,00",
+            "priceComJuros":"95,00",
+            "inCash":"70,00"
+        },
+        {
+            "thumbnail":"img/products/Game God Of War - PS4.jpg",
+            "link":"https://www.americanas.com.br/produto/132990587/game-god-of-war-ps4?pfm_carac=Jogos%20PS4&pfm_index=14&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid&sellerId",
+            "name":"Game God Of War - PS4",
+            "semJuros":"4",
+            "comJuros":"10",
+            "priceSemJuros":"119,00",
+            "priceComJuros":"140,90",
+            "inCash":"107,10"
+        },
+        {
+            "thumbnail":"img/products/Game Call Of Duty Black Ops 4 - XBOX ONE.jpg",
+            "link":"https://www.americanas.com.br/produto/133858721/game-call-of-duty-black-ops-4-xbox-one?pfm_carac=jogos%20xbox&pfm_index=12&pfm_page=search&pfm_pos=grid&pfm_type=search_page%20&sellerId",
+            "name":"Game Call Of Duty Black Ops 4 - XBOX ONE",
+            "semJuros":"10",
+            "comJuros":"15",
+            "priceSemJuros":"69,99",
+            "priceComJuros":"80,90",
+            "inCash":"65,00"
+        },
+        {
+            "thumbnail":"img/products/Game Forza Horizon 4 - XBOX ONE.jpg",
+            "link":"https://www.americanas.com.br/produto/133797324/game-forza-horizon-4-xbox-one?pfm_carac=forza&pfm_index=2&pfm_page=search&pfm_pos=grid&pfm_type=search_page%20&sellerId",
+            "name":"Game Forza Horizon 4 - XBOX ONE",
+            "semJuros":"12",
+            "comJuros":"15",
+            "priceSemJuros":"199,90",
+            "priceComJuros":"230,00",
+            "inCash":"180,00"
+        },
+        {
+            "thumbnail":"img/products/Game Gears Of War 4 - XBOX ONE.png",
+            "link":"https://www.americanas.com.br/produto/128831891/game-gears-of-war-4-xbox-one?pfm_carac=god%20of%20war%20xbox&pfm_index=13&pfm_page=search&pfm_pos=grid&pfm_type=search_page%20&sellerId",
+            "name":"Game Gears Of War 4 - XBOX ONE",
+            "semJuros":"2",
+            "comJuros":"5",
+            "priceSemJuros":"59,90",
+            "priceComJuros":"70,00",
+            "inCash":"49,90"
+        }
+    ]
+}

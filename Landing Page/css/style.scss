@@ -1,0 +1,313 @@
+$primary-color: rgb(222,95,0);
+
+$font-mobile: 40px;
+$font-desktop: 20px;
+
+$media-ipad: 768px;
+$media-laptop: 992px;
+$media-desktop: 1200px;
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: initial;
+    position: relative;
+    outline: none;
+
+    header, footer {
+        margin: 80px;
+
+        @media screen and (min-width: $media-desktop) {
+            margin: 40px;
+        }
+
+        @supports (-moz-appearance:none) and (text-align-last:auto) {
+            margin: 40px;
+            margin-top: 0;
+        }
+    }
+
+    .section-stores, .products-content {
+        margin: 40px 150px;
+    }
+
+    img {
+        padding: 40px 0;
+
+        @supports (-moz-appearance:none) and (text-align-last:auto) {
+            padding: 10px 0;
+        }
+    }
+
+    a {
+        cursor: pointer;
+    }
+
+    p {
+        font-size: $font-mobile;
+
+        @media screen and (min-width: $media-laptop) {
+            font-size: $font-desktop;
+        }
+
+        @supports (-moz-appearance:none) and (text-align-last:auto) {
+            font-size: $font-desktop;
+        }
+    }
+
+    sub, sup, span {
+        font-size: 20px;
+
+        @media screen and (min-width: $media-desktop) {
+            font-size: 10px;
+        }
+
+        @supports (-moz-appearance:none) and (text-align-last:auto) {
+            font-size: 10px;
+        }
+    }
+
+    hr {
+        border-color: $primary-color;
+        margin: 40px 0;
+
+        @media screen and (min-width: $media-desktop) {
+            margin: 10px 0px;
+        }
+
+        @supports (-moz-appearance:none) and (text-align-last:auto) {
+            margin: 10px 0px;
+        }
+    }
+
+    .divider {
+        background-image: url(../img/divider.PNG);
+        height: 250px;
+        border: none;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+
+        @media screen and (min-width: $media-desktop) {
+            height: 150px;
+        }
+
+        @supports (-moz-appearance:none) and (text-align-last:auto) {
+            height: 120px;
+        }
+    }
+}
+
+/* HEADER */
+header {
+    margin-bottom: 0;
+
+    @media screen and (min-width: $media-desktop) {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+
+    h1 {
+        font-size: 10rem;
+        background: -webkit-linear-gradient(left, lighten($primary-color, 30%), $primary-color, darken($primary-color, 20%));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        @media screen and (min-width: $media-desktop) {
+            font-size: 4em;
+            height: 20%;
+        }
+
+        @supports (-moz-appearance:none) and (text-align-last:auto) {  
+            font-size: 5em;
+
+            @media screen and (min-width: $media-desktop) {
+                font-size: 4em;
+                height: 20%;
+            }
+        }
+
+        @supports (-ms-ime-align:auto) and (font-variation-settings:normal) { 
+            @media screen and (min-width: $media-desktop) {
+                font-size: 4em;
+                height: 20%;
+            }
+        }
+    }
+
+    img {
+        width: 40%;
+
+        @media screen and (min-width: $media-desktop) {
+            width: 20%;
+            padding: 20px;
+        }
+
+        @supports (-moz-appearance:none) and (text-align-last:auto) { 
+            width: 60%;
+            padding: 20px;
+
+            @media screen and (min-width: $media-desktop) {
+                width: 20%;
+                padding: 20px;
+            }
+        }
+    }
+}
+
+/* DESCRIPTION SECTION */
+.section-description {
+    padding: 80px;
+
+    @media screen and (min-width: $media-desktop) {
+        padding: 20px 80px;
+    }
+
+    @supports (-moz-appearance:none) and (text-align-last:auto) {
+        padding: 40px;
+    }
+
+    p {
+        position: relative;
+        font-size: .9em;
+        font-weight: 500;
+
+        @media screen and (min-width: $media-desktop) {
+            font-size: $font-desktop;
+        }
+    }
+}
+
+/* PRODUCTS SECTION */
+.section-products {
+    height: auto;
+    background-size: 100%;
+
+    @media screen and (min-width: $media-desktop) {
+        background-image: none;
+        margin: 50px;
+    }
+
+    .product-title {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .products-content {
+        @media screen and (min-width: $media-desktop) {
+            margin: 20px;
+        }
+
+        @supports (-moz-appearance:none) and (text-align-last:auto) {
+            margin: 20px 40px;
+
+            @media screen and (min-width: $media-desktop) {
+                margin: 20px;
+            }
+        }
+    }
+
+    sup, span {
+        font-size: 0.5em;
+        align-self: start;
+    }
+
+    img {
+        padding: 0;
+
+        @media screen and (min-width: $media-desktop) {
+            max-width: 50%;
+        }
+
+        @supports (-moz-appearance:none) and (text-align-last:auto) {
+            max-width: 50%;
+        }
+    }
+
+    .prices {
+        display: grid;
+        grid-row-gap: 20px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .cards {
+        display: flex;
+        justify-content: space-around;
+
+        img {
+            max-height: 100px;
+
+            @media screen and (min-width: $media-desktop) {
+                max-height: 50px;
+            }
+
+            @supports (-moz-appearance:none) and (text-align-last:auto) { 
+                max-height: 40px;
+            }
+        }
+    }
+}
+
+/* STORES SECTION */
+.section-stores {
+    border: solid 5px $primary-color;
+    padding: 80px;
+
+    @media screen and (min-width: $media-desktop) {
+        margin: 20px 35%;
+        padding: 10px;
+    }
+
+    @supports (-moz-appearance:none) and (text-align-last:auto) { 
+        margin: 20px 40px;
+        padding: 10px;
+
+        @media screen and (min-width: $media-desktop) {
+            margin: 20px 35%;
+            padding: 10px;
+        }
+    }
+
+    p {
+        padding: 20px;
+
+        @supports (-moz-appearance:none) and (text-align-last:auto) {
+            padding: 10px;
+        }
+    }
+
+    hr {
+        @media screen and (min-width: $media-desktop) {
+            margin: 10px 30px;
+        }
+
+        @supports (-moz-appearance:none) and (text-align-last:auto) {
+            margin: 10px 30px;
+        }
+    }
+}
+
+/* FOOTER */
+footer {
+    img {
+        width: 30%;
+
+        @media screen and (min-width: $media-desktop) {
+            width: 15%;
+        }
+    }
+
+    p {
+        text-align: justify;
+        font-size: x-small;
+
+        @media screen and (min-width: $media-desktop) {
+            font-size: smaller;
+        }
+    }
+}
